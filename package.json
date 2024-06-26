@@ -3,6 +3,7 @@
   "version": "3.0.0",
   "description": "Giveaway bot created with discord-giveaways package in discord.js",
   "main": "index.js",
+  "type": "module",
   "scripts": {
     "start": "node index.js"
   },
