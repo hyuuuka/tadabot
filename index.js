@@ -1,6 +1,5 @@
 
-import keep_alive from './keep_alive.js';
-
+const keepAlive = require(`./server`);
 const express = require("express");
 const app = express();
 const { MessageEmbed, MessageActionRow, MessageSelectMenu, MessageButton } = require("discord.js")
